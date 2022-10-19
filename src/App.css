@@ -1,0 +1,9 @@
+.back {
+    background-color: #e0e0e0;
+}
+
+.box {
+    border-radius: 24px;
+    background: #e0e0e0;
+    box-shadow: 16px 16px 32px #c5c5c5, -16px -16px 32px #fbfbfb;
+}
