@@ -5,6 +5,7 @@ import LottieAnimation from "./lottie/lottieAnimation";
 import loadingAnimation from "../components/lottie/loading.json";
 import Pagination from "./common/paginagtion";
 import { paginate } from "./common/paginate";
+// import DealsData from "../data/dealsData.json";
 
 class Deals extends Component {
   componentWillMount() {

@@ -1,6 +1,8 @@
 import axios from "axios";
 import AuthHeader from "./authHeader";
-const COUPONS_ALL_COUPONS = "http://localhost:8082/allCoupons";
+import CouponsData from "../data/couponsData.json";
+
+// const COUPONS_ALL_COUPONS = "http://localhost:8082/allCoupons";
 const COUPONS_BY_ID = "http://localhost:8082/allDeals/ONEPLUS";
 const COUPONS_ADD_COUPON = "http://localhost:8081/admin/addCoupon";
 const COUPONS_GRAB_COUPON = "http://localhost:8081/user/grabCoupon";
@@ -8,7 +10,8 @@ const COUPONS_EDIT_COUPON = "http://localhost:8081/admin/editCoupon";
 const COUPONS_REMOVE_COUPON = "http://localhost:8081/admin/removeCoupon";
 class CouponsService {
   getCoupons = () => {
-    return axios.get(COUPONS_ALL_COUPONS);
+    // return axios.get(COUPONS_ALL_COUPONS);
+    return CouponsData;
   };
   getCoupon = async () => {
     return axios.get(COUPONS_BY_ID);

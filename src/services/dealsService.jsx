@@ -1,7 +1,9 @@
 import axios from "axios";
 import AuthHeader from "./authHeader";
+import DealsData from "../data/dealsData.json";
+import HomeDeal from "../data/homeDeal.json";
 
-const DEALS_ALL_DEALS = "http://localhost:8083/allDeals";
+// const DEALS_ALL_DEALS = "http://localhost:8083/allDeals";
 const DEALS_ADD_DEAL = "http://localhost:8081/admin/addDeal";
 const DEALS_EDIT_DEAL = "http://localhost:8081/admin/editDeal";
 const DEALS_REMOVE_DEAL = "http://localhost:8081/admin/removeDeal";
@@ -9,11 +11,13 @@ const DEALS_GRAB_DEAL = "http://localhost:8081/user/grabDeal";
 
 class DealsService {
   getDeals = async () => {
-    return axios.get(DEALS_ALL_DEALS);
+    // return axios.get(DEALS_ALL_DEALS);
+    return DealsData;
   };
   getDeal = async (dealCode) => {
-    let x = await axios.get(`${DEALS_ALL_DEALS}/${dealCode}`);
-    return x;
+    // let x = await axios.get(`${DEALS_ALL_DEALS}/${dealCode}`);
+    // return x;
+    return HomeDeal;
   };
   addDeal = async (deal) => {
     return axios.post(DEALS_ADD_DEAL, deal, { headers: AuthHeader() });

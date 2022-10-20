@@ -1,0 +1,15 @@
+{
+    "data": {
+        "dealCode": "ONEPLUS",
+        "title": "Oneplus 7",
+        "description": "Camera Co-Developed with Hasselblad, 48 MP Main camera, 50 MP Ultra Wide Angle Camera with Sensor size of 1/1.56'', 8 MP Telepoto Lens, 2 MP Monochorme Lens,16 MP Front Camera\nQualcomm Snapdragon 888 Processor with Adreno 660 GPU",
+        "imageurl": "https://image01.oneplus.net/ebp/202003/03/1-m00-11-8c-rb8bwl5efu2anvzhaaisltx0gma860_840_840.png",
+        "link": "https:oneplus.com",
+        "usernames": [
+            "venkat",
+            "shirdi"
+        ],
+        "rewards": 100.0,
+        "category": "electronics"
+    }
+}

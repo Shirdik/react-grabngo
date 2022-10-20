@@ -1,20 +1,25 @@
 import React, { Component } from "react";
 import CouponModel from "./common/couponModel";
-import CouponsService from "../services/couponsService";
+// import CouponsService from "../services/couponsService";
 import LottieAnimation from "./lottie/lottieAnimation";
 import loading from "./lottie/loading.json";
 import Pagination from "./common/paginagtion";
 import { paginate } from "./common/paginate";
+import CouponsData from "../data/couponsData.json";
 
 class Coupons extends Component {
   componentDidMount() {
     let loading = true;
     this.setState({ loading });
-    CouponsService.getCoupons().then(({ data }) => {
-      this.setState({ data });
-      loading = false;
-      this.setState({ loading: false });
-    });
+    // CouponsService.getCoupons().then(({ data }) => {
+    //   this.setState({ data });
+    //   loading = false;
+    //   this.setState({ loading: false });
+    // });
+    loading = false;
+    let { data } = CouponsData;
+    this.setState({ data });
+    this.setState({ loading });
   }
   state = {
     data: [],
