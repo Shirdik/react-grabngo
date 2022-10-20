@@ -32,7 +32,10 @@ class NavBarComponent extends Component {
           <nav className=" px-6 flex flex-wrap items-center py-2 nm-flat-gray-300 rounded-full mx-10 my-2">
             <div className="flex flex-1 justify-between items-center">
               <div className="flex items-center justify-end ">
-                <Link to="/" className="nm-flat-gray-300 rounded-3xl">
+                <Link
+                  to="/react-grabngo/Home"
+                  className="nm-flat-gray-300 rounded-3xl"
+                >
                   <svg
                     id="Layer_1"
                     enable-background="new 0 0 128 128"
