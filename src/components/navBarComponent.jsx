@@ -136,27 +136,27 @@ class NavBarComponent extends Component {
                 </NavLink>
                 <NavLink
                   className="nm-flat-gray-300 rounded-3xl px-3 py-2 focus:nm-inset-gray-200"
-                  to="/Deals"
+                  to="/react-grabngo/Deals"
                 >
                   Deals
                 </NavLink>
                 <NavLink
                   className="nm-flat-gray-300 rounded-3xl px-3 py-2 focus:nm-inset-gray-200"
-                  to="/Coupons"
+                  to="/react-grabngo/Coupons"
                 >
                   Coupons
                 </NavLink>
                 {user.username === "" ? (
                   <NavLink
                     className="nm-flat-gray-300 rounded-3xl px-3 py-2 focus:nm-inset-gray-200 lg:hidden"
-                    to="/Login"
+                    to="/react-grabngo/Login"
                   >
                     Login
                   </NavLink>
                 ) : (
                   <NavLink
                     className="nm-flat-gray-300 rounded-3xl px-3 py-2 focus:nm-inset-gray-200 lg:hidden"
-                    to="/User"
+                    to="/react-grabngo/User"
                   >
                     Profile
                   </NavLink>
@@ -164,7 +164,7 @@ class NavBarComponent extends Component {
                 {user.role === "" ? (
                   <NavLink
                     className="nm-flat-gray-300 rounded-3xl px-3 py-2 focus:nm-inset-gray-200 lg:hidden pattern-2"
-                    to="/SignUp"
+                    to="/react-grabngo/SignUp"
                   >
                     SignUp
                   </NavLink>
@@ -181,14 +181,14 @@ class NavBarComponent extends Component {
                 {user.username === "" ? (
                   <NavLink
                     className="nm-flat-gray-300 rounded-3xl px-3 py-2 focus:nm-inset-gray-200"
-                    to="/Login"
+                    to="/react-grabngo/Login"
                   >
                     Login
                   </NavLink>
                 ) : (
                   <NavLink
                     className="nm-flat-gray-300 rounded-3xl px-3 py-2 focus:nm-inset-gray-200"
-                    to="/User"
+                    to="/react-grabngo/User"
                   >
                     Profile
                   </NavLink>
@@ -196,14 +196,14 @@ class NavBarComponent extends Component {
                 {user.role === "" ? (
                   <NavLink
                     className="nm-flat-gray-300 rounded-3xl px-3 py-2 focus:nm-inset-gray-200"
-                    to="/SignUp"
+                    to="/react-grabngo/SignUp"
                   >
                     SignUp
                   </NavLink>
                 ) : (
                   <NavLink
                     className="nm-flat-gray-300 rounded-3xl px-3 py-2 focus:nm-inset-gray-200"
-                    to="/Logout"
+                    to="/react-grabngo/Logout"
                   >
                     Logout
                   </NavLink>

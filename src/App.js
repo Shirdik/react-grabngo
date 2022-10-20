@@ -43,23 +43,47 @@ class App extends Component {
         <main className="bg-gray-200">
           <Switch>
             {user.role === "ROLE_ADMIN" ? (
-              <Route path="/Home" component={AdminComponent}></Route>
+              <Route
+                path="/react-grabngo/Home"
+                component={AdminComponent}
+              ></Route>
             ) : (
-              <Route path="/Home" component={HomeComponent}></Route>
+              <Route
+                path="/react-grabngo/Home"
+                component={HomeComponent}
+              ></Route>
             )}
-            <Route path="/Deals" component={DealsComponent}></Route>
-            <Route path="/Coupons" component={CouponsComponent}></Route>
-            <Route path="/Login" component={LoginComponent}></Route>
-            <Route path="/Logout" component={LogoutComponent}></Route>
-            <Route path="/User" component={UserComponent}></Route>
-            <Route path="/SignUp" component={RegisterComponent}></Route>
-            <Route path="/DealsEditor" component={AdminDealsComponent}></Route>
+            <Route
+              path="/react-grabngo/Deals"
+              component={DealsComponent}
+            ></Route>
+            <Route
+              path="/react-grabngo/Coupons"
+              component={CouponsComponent}
+            ></Route>
+            <Route
+              path="/react-grabngo/Login"
+              component={LoginComponent}
+            ></Route>
+            <Route
+              path="/react-grabngo/Logout"
+              component={LogoutComponent}
+            ></Route>
+            <Route path="/react-grabngo/User" component={UserComponent}></Route>
+            <Route
+              path="/react-grabngo/SignUp"
+              component={RegisterComponent}
+            ></Route>
+            <Route
+              path="/react-grabngo/DealsEditor"
+              component={AdminDealsComponent}
+            ></Route>
             <Route
               path="/CouponsEditor"
               component={AdminCouponsComponent}
             ></Route>
             <Route path="/not-found" component={NotFoundComponent}></Route>
-            <Redirect exact from="/" to="/Home" />
+            <Redirect exact from="/" to="/react-grabngo/Home" />
             <Redirect to="/not-found" />
           </Switch>
         </main>
