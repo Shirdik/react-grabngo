@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-grabngo/static/css/main.e4a71e40.chunk.css",
-    "main.js": "/react-grabngo/static/js/main.e53d0854.chunk.js",
-    "main.js.map": "/react-grabngo/static/js/main.e53d0854.chunk.js.map",
+    "main.css": "/react-grabngo/static/css/main.0e0ab885.chunk.css",
+    "main.js": "/react-grabngo/static/js/main.47dcf71f.chunk.js",
+    "main.js.map": "/react-grabngo/static/js/main.47dcf71f.chunk.js.map",
     "runtime-main.js": "/react-grabngo/static/js/runtime-main.7086793e.js",
     "runtime-main.js.map": "/react-grabngo/static/js/runtime-main.7086793e.js.map",
     "static/js/2.85afbcc4.chunk.js": "/react-grabngo/static/js/2.85afbcc4.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.b75075e8.chunk.js": "/react-grabngo/static/js/3.b75075e8.chunk.js",
     "static/js/3.b75075e8.chunk.js.map": "/react-grabngo/static/js/3.b75075e8.chunk.js.map",
     "index.html": "/react-grabngo/index.html",
-    "static/css/main.e4a71e40.chunk.css.map": "/react-grabngo/static/css/main.e4a71e40.chunk.css.map",
+    "static/css/main.0e0ab885.chunk.css.map": "/react-grabngo/static/css/main.0e0ab885.chunk.css.map",
     "static/js/2.85afbcc4.chunk.js.LICENSE.txt": "/react-grabngo/static/js/2.85afbcc4.chunk.js.LICENSE.txt",
     "static/media/index.css": "/react-grabngo/static/media/Gilroy-ExtraBold.0094146a.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.7086793e.js",
     "static/js/2.85afbcc4.chunk.js",
-    "static/css/main.e4a71e40.chunk.css",
-    "static/js/main.e53d0854.chunk.js"
+    "static/css/main.0e0ab885.chunk.css",
+    "static/js/main.47dcf71f.chunk.js"
   ]
 }
