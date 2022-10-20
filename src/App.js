@@ -83,7 +83,7 @@ class App extends Component {
               component={AdminCouponsComponent}
             ></Route>
             <Route path="/not-found" component={NotFoundComponent}></Route>
-            <Redirect exact from="/" to="/react-grabngo/Home" />
+            <Redirect exact from="/react-grabngo/" to="/react-grabngo/Home" />
             <Redirect to="/not-found" />
           </Switch>
         </main>
