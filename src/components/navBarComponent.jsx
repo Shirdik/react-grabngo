@@ -254,7 +254,7 @@ class NavBarComponent extends Component {
                               </svg>
                               <NavLink
                                 className="flex items-center p-2 -m-7 transition duration-150 ease-in-out rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50 "
-                                to="/"
+                                to="/react-grabngo/"
                               >
                                 Home
                               </NavLink>
@@ -274,7 +274,7 @@ class NavBarComponent extends Component {
                               </svg>
                               <NavLink
                                 className="flex items-center p-2 -m-7 transition duration-150 ease-in-out rounded-lg  focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
-                                to="/Deals"
+                                to="/react-grabngo/Deals"
                               >
                                 Deals
                               </NavLink>
@@ -294,7 +294,7 @@ class NavBarComponent extends Component {
                               </svg>
                               <NavLink
                                 className="flex items-center p-2 -m-7 transition duration-150 ease-in-out rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
-                                to="/Coupons"
+                                to="/react-grabngo/Coupons"
                               >
                                 Coupons
                               </NavLink>
@@ -315,7 +315,7 @@ class NavBarComponent extends Component {
                                 </svg>
                                 <NavLink
                                   className="flex items-center p-2 -m-7 transition duration-150 ease-in-out rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
-                                  to="/LogIn"
+                                  to="/react-grabngo/LogIn"
                                 >
                                   LogIn
                                 </NavLink>
@@ -336,7 +336,7 @@ class NavBarComponent extends Component {
                                 </svg>
                                 <NavLink
                                   className="flex items-center p-2 -m-7 transition duration-150 ease-in-out rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
-                                  to="/User"
+                                  to="/react-grabngo/User"
                                 >
                                   Profile
                                 </NavLink>
@@ -354,7 +354,7 @@ class NavBarComponent extends Component {
                                 </svg>
                                 <NavLink
                                   className="flex items-center p-2 -m-7 transition duration-150 ease-in-out rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
-                                  to="/SignUp"
+                                  to="/react-grabngo/SignUp"
                                 >
                                   SignUp
                                 </NavLink>
@@ -375,7 +375,7 @@ class NavBarComponent extends Component {
                                 </svg>
                                 <NavLink
                                   className="flex items-center p-2 -m-7 transition duration-150 ease-in-out rounded-lg focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
-                                  to="/Logout"
+                                  to="/react-grabngo/Logout"
                                 >
                                   Logout
                                 </NavLink>
