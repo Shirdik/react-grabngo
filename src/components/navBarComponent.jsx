@@ -133,7 +133,7 @@ class NavBarComponent extends Component {
               <div className="hidden sm:flex  items-center justify-between space-x-4 lg:pl-32">
                 <NavLink
                   className="nm-flat-gray-300 rounded-3xl px-3 py-2 focus:nm-inset-gray-200"
-                  to="/"
+                  to="/react-grabngo/"
                 >
                   Home
                 </NavLink>
