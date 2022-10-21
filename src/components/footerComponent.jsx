@@ -15,19 +15,19 @@ class FooterComponent extends Component {
                 <h1 className="font-semibold text-gray-600">Navigation</h1>
                 <ul className="flex flex-col space-y-2">
                   <li className="text-gray-700 text-sm">
-                    <Link to="/home">Home</Link>
+                    <Link to="/react-grabngo/home">Home</Link>
                   </li>
                   <li className="text-gray-700 text-sm">
-                    <Link to="/Deals">Deals</Link>
+                    <Link to="/react-grabngo/Deals">Deals</Link>
                   </li>
                   <li className="text-gray-700 text-sm">
-                    <Link to="/Coupons">Coupons</Link>
+                    <Link to="/react-grabngo/Coupons">Coupons</Link>
                   </li>
                   <li className="text-gray-700 text-sm">
-                    <Link to="/LogIn">Login</Link>
+                    <Link to="/react-grabngo/LogIn">Login</Link>
                   </li>
                   <li className="text-gray-700 text-sm">
-                    <Link to="/SignUp">SignUp</Link>
+                    <Link to="/react-grabngo/SignUp">SignUp</Link>
                   </li>
                 </ul>
               </div>
